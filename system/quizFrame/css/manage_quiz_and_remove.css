@@ -1,0 +1,83 @@
+	.dybtn{
+				position: absolute;
+				float:left;
+				padding: 20px 80px;
+				
+			}
+			.dybtn span{
+				position: absolute;
+				float:left;
+				padding:40px 0px;
+				
+			}
+			
+			.dyimg{
+				float:right;
+				width:300px;
+			}
+			.welcome{
+				position: absolute;
+				width:300px;
+				text-align: left;
+				margin: 0 0 5px;
+ 				color: #33b5e5;
+ 				font-size: 15px;
+ 				font-weight: 400;
+			}
+			.box{
+				position: absolute;
+				width:300px;
+				text-align: left;
+				bottom: 0;
+ 				color: #33b5e5;
+ 				font-size: 10px;
+ 				font-weight: 400;
+				padding: 6px 12px;
+				-webkit-animation: fadeEffect 1s;
+				animation: fadeEffect 1s;
+			}
+
+			@-webkit-keyframes fadeEffect {
+				from {opacity: 0;}
+				to {opacity: 1;}
+			}
+
+			@keyframes fadeEffect {
+				from {opacity: 0;}
+				to {opacity: 1;}
+			}
+			::-webkit-scrollbar {
+			width: 12px;
+			}
+ 
+			::-webkit-scrollbar-track {
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+			border-radius: 10px;
+			}
+ 
+			::-webkit-scrollbar-thumb {
+			border-radius: 10px;
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+			}
+		
+			.quizName{
+				background: #abc904;
+				background-image: -webkit-linear-gradient(top, #abc904, #65b603);
+				background-image: -moz-linear-gradient(top, #abc904, #65b603);
+				background-image: -ms-linear-gradient(top, #abc904, #65b603);
+				background-image: -o-linear-gradient(top, #abc904, #65b603);
+				background-image: linear-gradient(to bottom, #abc904, #65b603);
+				-webkit-border-radius: 2;
+				-moz-border-radius: 2;
+				border-radius: 2px;
+				text-shadow: 2px 2px 0px #5b6580;
+				-webkit-box-shadow: 3px 3px 3px #666666;
+				-moz-box-shadow: 3px 3px 3px #666666;
+				box-shadow: 3px 3px 3px #666666;
+				font-family: Arial;
+				color: #ffffff;
+				font-size: 15px;
+				padding: 1px 10px 1px 10px;
+				text-decoration: none;
+				width:150px;	
+			}	

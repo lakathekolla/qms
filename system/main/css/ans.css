@@ -1,0 +1,100 @@
+.ans {
+  float: right;
+  width: 25%;
+  height: 50px;
+  margin: 10px 0 0 56%;
+  border: 1px solid rgba(64, 180, 205, 0.65);
+  border-radius: 1px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  background-color: rgba(70, 158, 39, 0.9);
+}
+
+.container {
+  float: right;
+  clear: both;
+  width: 25%;
+  height: 220px;
+  margin: 15px 0 0 56.07943%;
+}
+
+.text {
+  float: center;
+  position:relative;
+  width: 98%;
+  min-height: 32px;
+  font-size: 16.5px;
+  color: rgb(0, 0, 0);
+  
+}
+
+._button {
+  display: block;
+  float: right;
+  clear: both;
+  width: 25%;
+  height: 28px;
+  border-radius: 3px;
+  background-color: rgba(70, 158, 39, 0.9);
+  box-shadow: 2px 2px 5px rgba(5, 28, 8, 0.67);
+  text-shadow: 2px 2px 5px rgba(256, 256, 256, 0.65);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._button:hover {
+  background-color: rgba(33, 98, 19, 0.9);
+  box-shadow: 4px 4px 10px rgba(5, 28, 8, 0.67);
+  text-shadow: 3px 3px 6px rgba(103, 246, 132, 1);
+}
+
+._button-1 {
+  margin: 65px 0 0 56.07552%;
+}
+
+._button-2 {
+  margin: 20px 0 0 56.07943%;
+}
+
+.text span {
+	  margin: 0 0 0 2%;
+	  border-color: transparent;
+	  border-style: none;
+	  background-color: transparent;
+	  text-shadow: 2px 2px 5px rgba(103, 246, 132, 0.65);
+	  font-family:"Segoe UI Web Light","Segoe UI Light","Segoe UI Web Regular","Segoe UI","Helvetica Neue",Arial;
+	  font-style: normal;
+	  font-size: 1.2em;
+	  font-weight: 700;
+	  text-transform: inherit;
+	  text-decoration: inherit;
+	  letter-spacing: inherit;
+	  word-spacing: inherit;
+	  color: #004203;
+	  opacity: 1;
+	  word-break: normal;
+	  word-wrap: normal;
+	  white-space: normal;
+}
+
+.text a,
+.text em,
+.text strong {
+
+  border-color: transparent;
+  border-style: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
