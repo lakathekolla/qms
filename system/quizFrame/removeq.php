@@ -24,7 +24,7 @@
 			if(isset($_POST["id_me"])){
 				$quiz_name= $_POST["id_me"];
 			//get quiz id
-					include '/lib/connect.php';
+                require_once __DIR__ . '/lib/connect.php';
 						$qzdowork ="SELECT quiz_id FROM quiz WHERE quiz_name='$quiz_name' ";
 						$qzresult= mysql_query($qzdowork) or die("function error");
 				

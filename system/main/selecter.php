@@ -267,7 +267,7 @@ input.radio:focus ~ label:before {
 						<?php
 						session_start();
 							$last=0;
-							include '/lib/connect.php';
+                        require_once __DIR__ . '/lib/connect.php';
 							if(isset($_POST["id_me"])){
 								$qiz_name=$_POST["id_me"];
 								$_SESSION["quiz_name"]=$qiz_name;
@@ -436,7 +436,7 @@ input.radio:focus ~ label:before {
 					<div class="set">
 
 						<?php
-							include '/lib/connect.php';
+                        require_once __DIR__ . '/lib/connect.php';
 							
 							if(isset($_POST["id_me"])){
 										$qiz_name=$_POST["id_me"];
@@ -528,9 +528,7 @@ input.radio:focus ~ label:before {
 												echo '<input type="hidden" name="end" value="1">';
 												
 											}
-									
-									Mysql_free_result($qresult);
-									mysql_close($conn);
+
 
 								
 						
@@ -641,8 +639,7 @@ input.radio:focus ~ label:before {
 												echo '<input type="hidden" name="end" value="1">';
 											}
 								
-										Mysql_free_result($qresult);
-										mysql_close($conn);
+
 									}else{
 										//test answer
 											$q_ans_total=$_POST["q_ans_total"];;
@@ -665,9 +662,9 @@ input.radio:focus ~ label:before {
 										//insert marks for current user
 										
 										$me=$_SESSION["user"];
-										
-										
-										include '/lib/connect.php';
+
+
+                                        require_once __DIR__ . '/lib/connect.php';
 
 											$dowork ="INSERT INTO marks(quiz_id,marks,stu_id) VALUES('$quiz_id','$q_ans_total','$me')";
 											 

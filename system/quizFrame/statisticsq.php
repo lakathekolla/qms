@@ -124,9 +124,9 @@ Your results of Quizes can be avalable this area After a quiz.
 		if(isset($_POST["id_me"])){
 			$quiz_name=$_POST["id_me"];
 		}
-		
-		
-		include '/lib/connect.php';
+
+
+        require_once __DIR__ . '/lib/connect.php';
 			$dowork ="SELECT quiz_id FROM quiz WHERE quiz_name='$quiz_name'";
 			$result= mysql_query($dowork) or die("function error");
 		 
@@ -178,9 +178,7 @@ Your results of Quizes can be avalable this area After a quiz.
 			}
 		}
 	
-		
-		Mysql_free_result($result);
-		mysql_close($conn);
+
 
 		?>
 	</form>

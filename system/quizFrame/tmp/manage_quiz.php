@@ -85,8 +85,8 @@ Hi! Welcome to QMS.Select the quiz you prefer to change .
 	
 	
 		<?php
-		
-		include '/lib/connect.php';
+
+        require_once __DIR__ . '/lib/connect.php';
 			$dowork ="SELECT quiz_name FROM quiz";
 			$result= mysql_query($dowork) or die("function error");
 			
@@ -141,9 +141,7 @@ Hi! Welcome to QMS.Select the quiz you prefer to change .
 			}
 		}
 	
-		
-		Mysql_free_result($result);
-		mysql_close($conn);
+
 
 		?>
 	</form>

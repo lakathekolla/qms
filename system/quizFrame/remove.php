@@ -26,25 +26,24 @@
 			<form action="removeq.php" method="post">
 				
 				<?php
-				include '/lib/connect.php';
-				
-				session_start();
-				$me=$_SESSION["user"];
-					$dowork ="SELECT quiz_name FROM quiz WHERE quiz_by='$me'";
-					$result= mysql_query($dowork) or die("function error");
-				
+                require_once __DIR__ . '/lib/connect.php';
+
+                session_start();
+                $me=$_SESSION["user"];
+                $dowork ="SELECT quiz_name FROM quiz WHERE quiz_by='$me'";
+                $result= mysql_query($dowork) or die("function error");
+
+
+                echo '</br>';
 					echo '</br>';
-					echo '</br>';
-			 
+
 					while($retVal=mysql_fetch_array($result,MYSQL_ASSOC)){
 						foreach($retVal as $cell){
 							echo '<input type="submit" class="quizName" onmouseover="bigImg(this)" onmouseout="normalImg(this)" name="id_me" value="'.$cell.'">';
 							echo '</br>';
 						}
 					}
-				
-				Mysql_free_result($result);
-				mysql_close($conn);
+
 
 				?>
 			</form>

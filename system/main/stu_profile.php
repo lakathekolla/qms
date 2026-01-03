@@ -123,8 +123,8 @@ Your results of Quizes can be avalable this area After a quiz.
 		<?php
 		session_start();
 		$stu_id=$_SESSION["user"];
-		
-		include '/lib/connect.php';
+
+        require_once __DIR__ . '/lib/connect.php';
 			$dowork ="SELECT quiz_name FROM quiz";
 			$result= mysql_query($dowork) or die("function error");
 		 
@@ -176,9 +176,7 @@ Your results of Quizes can be avalable this area After a quiz.
 			}
 		}
 	
-		
-		Mysql_free_result($result);
-		mysql_close($conn);
+
 
 		?>
 	</form>

@@ -327,7 +327,7 @@ input.radio:focus ~ label:before {
 						<?php
 						session_start();
 						$last=0;
-						include '/lib/connect.php';
+                        require_once __DIR__ . '/lib/connect.php';
 							if(isset($_POST["id_me"])){
 								$qiz_name=$_POST["id_me"];
 								$q_id=1;
@@ -705,7 +705,7 @@ input.radio:focus ~ label:before {
 			<div class="container">
 				<div class="set">
 						<?php
-							include '/lib/connect.php';
+                        require_once __DIR__ . '/lib/connect.php';
 							if(isset($_POST["id_me"])){
 								$qiz_name=$_POST["id_me"];
 										$q_id=1;
