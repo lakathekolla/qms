@@ -11,6 +11,15 @@ The code is *honestly quite “ugly” by today’s standards* (inline PHP, old 
 This project was originally written for older PHP/MySQL and is kept as-is on `main`.
 If you want a runnable modern version on PHP 8+, check the **`php8-compat`** branch.
 
+---
+
+**Free to use** — no licence, no rules, no lawyers.  
+Do whatever you want with it… but if it ruins your day, breaks your server, or summons spaghetti-code demons,  
+please don’t blame me — **message me and tell me what went wrong so I can laugh and learn** 😄
+
+**LakruwanX**  
+Updated: **3 January 2026**
+
 
 ## What I tried to build 
 
@@ -101,4 +110,5 @@ Still… it worked, and it taught me a lot. That’s the point of keeping it �
 ## Personal note
 
 If you’re reading this: this project is a 'before' snapshot and a reminder that improvement comes from building, breaking, learning, and repeating.
+
 
