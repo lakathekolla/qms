@@ -6,8 +6,13 @@ It’s here mainly as a **memory**, and also as a reminder of how far I’ve com
 The code is *honestly quite “ugly” by today’s standards* (inline PHP, old MySQL functions, no structure, etc.) — but it’s also a lovely snapshot of early learning where I tried to build a complete system end-to-end.
 
 ---
+## PHP Version Note
 
-## What I tried to build (features)
+This project was originally written for older PHP/MySQL and is kept as-is on `main`.
+If you want a runnable modern version on PHP 8+, check the **`php8-compat`** branch.
+
+
+## What I tried to build 
 
 ### Student side
 
@@ -96,3 +101,4 @@ Still… it worked, and it taught me a lot. That’s the point of keeping it �
 ## Personal note
 
 If you’re reading this: this project is a 'before' snapshot and a reminder that improvement comes from building, breaking, learning, and repeating.
+
