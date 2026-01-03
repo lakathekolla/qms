@@ -1,6 +1,6 @@
 <?php
 //include '/system/main/lib/connect.php';
-
+require_once __DIR__ . '/../../../compat/mysql.php';
 
 $ssname ="localhost";
 $usname ="root";
