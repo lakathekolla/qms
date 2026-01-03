@@ -13,6 +13,7 @@ If you want a runnable modern version on PHP 8+, check the **`php8-compat`** bra
 
 ---
 
+## Developer Note
 **Free to use** — no licence, no rules, no lawyers.  
 Do whatever you want with it… but if it ruins your day, breaks your server, or summons spaghetti-code demons,  
 please don’t blame me — **message me and tell me what went wrong so I can laugh and learn** 😄
@@ -110,5 +111,6 @@ Still… it worked, and it taught me a lot. That’s the point of keeping it �
 ## Personal note
 
 If you’re reading this: this project is a 'before' snapshot and a reminder that improvement comes from building, breaking, learning, and repeating.
+
 
 
